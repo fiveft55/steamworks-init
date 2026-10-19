@@ -1,0 +1,19 @@
+; Engine settings. No third-party assets are required.
+config_version=5
+
+[application]
+config/name="Bean Workshop"
+run/main_scene="res://main.tscn"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=800
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.035, 0.055, 0.09, 1)
+
+[physics]
+common/physics_ticks_per_second=60
